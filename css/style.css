@@ -23,9 +23,17 @@ p {
   font-size: 14px;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* NAVBAR 	*/
 .navbar.bg-dark {
   background-color: rgba(0, 0, 0, 1) !important;
+}
+
+.active a {
+  color: #fff !important;
 }
 
 /* HEADER */
@@ -44,6 +52,11 @@ header .overlay {
   position: relative;
   z-index: 100;
 }
+
+/* Form */
+#contact {
+  height: 93vh;
+}
   
 /* responsive*/
 @media screen and (max-width: 992px) {
@@ -55,5 +68,8 @@ header .overlay {
   }
   #creative .caseImage {
     display: none;
+  }
+  #contact {
+    height: auto;
   }
 }

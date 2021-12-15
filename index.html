@@ -21,11 +21,31 @@
   <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top border-bottom border-primary border-3">
     <div class="container">
       <!-- Logo --> 
-
+      <a href="#home" class="fs-5 text-primary">LogoSpace</a>
       <!-- Mobile Icon --> 
-  
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
       <!-- Nav  -->
-
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link scroll" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link scroll" href="#features">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link scroll" href="#creative">Creative</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link scroll" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link scroll" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </nav>
   
@@ -36,25 +56,19 @@
         <div class="row text-center text-white vh-100">
           <div class="col my-auto">
             <!-- Header Content -->
-
-            
+            <h1 class="display-2"><span class="text-primary">LogoSpace</span> Landing Theme</h1>
+            <small class="fst-italic d-block pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum soluta consectetur necessitatibus vero ipsum laudantium magnam quibusdam pariatur.</small>
+            <button class="btn btn-outline-primary w-25">Action</button>
           </div>
         </div>
       </div>
     </div>
   </header>
 
-  <!-- features 
-
-     <i class="fab fa-ravelry fa-3x text-muted"></i>
-     <i class="fas fa-cog  fa-3x text-muted"></i>
-     <i class="fas fa-leaf fa-3x text-muted"></i>
-     <i class="fas fa-podcast fa-3x text-muted"></i>
-
-  -->
+  
   <section id="features">
-    <div class="container mb-5">
-      <h1 class="display-3 text-center my-5">Features</h1>
+    <div class="container pt-5 mb-5">
+      <h1 class="display-2 text-center my-5">Features</h1>
 
       <div class="row">
         <div class="col-lg-3 col-md-6 col-sm-12 text-center">
@@ -65,8 +79,30 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
           tempor incididunt ut labore et </p>
         </div>
- 
-
+        <div class="col-lg-3 col-md-6 col-sm-12 text-center">
+          <div class="features-top">
+            <i class="fas fa-cog fa-3x text-muted"></i>
+            <h3 class="fs-6 fw-normal text-primary my-3">CLEAN CODE</h3>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et </p>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 text-center">
+          <div class="features-top">
+            <i class="fas fa-leaf fa-3x text-muted"></i>
+            <h3 class="fs-6 fw-normal text-primary my-3">CREATIVE IDEAS</h3>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et </p>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 text-center">
+          <div class="features-top">
+            <i class="fas fa-podcast fa-3x text-muted"></i>
+            <h3 class="fs-6 fw-normal text-primary my-3">FREE SUPPORT</h3>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et </p>
+        </div>
       </div>
     </div>
   </section>
@@ -75,20 +111,22 @@
   <section id="creative" class="bg-light">
     <div class="container py-5">
 
-      <h1 class="display-3 text-center my-4">Creative Areas</h1>
+      <h1 class="display-2 text-center my-4">Creative Areas</h1>
 
       <div class="row py-5">
         <div class="col-lg-6">
           <div class="caseArea bg-white text-center p-5">
-            <i class="fa fa-podcast fa-4x mt-4"></i>
+            <i class="fa fa-podcast fa-4x my-4"></i>
             <!-- Content -->
-            
+            <h2 class="fs-5 text-primary fw-light my-4">ACCUMULATİVE CREATİVE AREAS</h2>
+            <p class="d-block mt-5 lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore officia aliquid rem debitis nihil excepturi cupiditate et alias perspiciatis. Placeat beatae repellendus dolore quaerat, consequuntur aut, asperiores ea tempora illo odit porro, minus sed iste. Maxime eligendi laborum iste hic non ipsam similique optio illum delectus. Ratione eaque reiciendis inventore recusandae incidunt? Id, cumque! Aperiam doloribus rem voluptates impedit dignissimos, placeat odit dolorum exercitationem similique, quod dolorem accusamus corporis illo??</p>
+            <button class="btn btn-outline-primary w-25 my-4">Action</button>
           </div>
         </div>
         <div class="col-lg-6">
           <div class="caseImage">
             <!-- Images -->
-
+            <img src="./img/caseStudy.jpg" class="w-100 h-100">
           </div>
         </div>
       </div>
@@ -97,16 +135,37 @@
   
   <!--  Portfolio -->
   <section id="portfolio" class="bg-light">
-    <div class="container-fluid"> 
-      <h1 class="display-3 text-center pb-5"> Portfolio </h1>
+    <div class="container-fluid pt-5"> 
+      <h1 class="display-2 text-center my-4"> Portfolio </h1>
 
       <div class="row"> 
         <div class="col-6 col-lg-3 p-0 text-center">  
           <img src="img/portfolio/1.jpg" class="img-fluid">  
         </div>
-         
-
+        <div class="col-6 col-lg-3 p-0 text-center">  
+          <img src="img/portfolio/2.jpg" class="img-fluid">  
+        </div>
+        <div class="col-6 col-lg-3 p-0 text-center">  
+          <img src="img/portfolio/3.jpg" class="img-fluid">  
+        </div>
+        <div class="col-6 col-lg-3 p-0 text-center">  
+          <img src="img/portfolio/4.jpg" class="img-fluid">  
+        </div>
       </div> 
+      <div class="row">
+        <div class="col-6 col-lg-3 p-0 text-center">  
+          <img src="img/portfolio/4.jpg" class="img-fluid">  
+        </div>
+        <div class="col-6 col-lg-3 p-0 text-center">  
+          <img src="img/portfolio/3.jpg" class="img-fluid">  
+        </div>
+        <div class="col-6 col-lg-3 p-0 text-center">  
+          <img src="img/portfolio/2.jpg" class="img-fluid">  
+        </div>
+        <div class="col-6 col-lg-3 p-0 text-center">  
+          <img src="img/portfolio/1.jpg" class="img-fluid">  
+        </div>
+      </div>
     </div>
   </section>
 
@@ -115,24 +174,43 @@
     <div class="container py-5 ">
       <div class="row">
         <div class="col-lg-6">
+          <h1 class="display-4 text-start text-primary mt-4 mb-2"> CONTACT US </h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius tenetur odio ipsum distinctio inventore accusamus adipisci dignissimos! Velit, autem.</p>
 
           <h4>E-Mail</h4> 
           <p><a href="mailto:examplemail@example.com" class="text-decoration-none text-reset">examplemail@example.com</a></p>
+
+          <h4>Phone</h4> 
+          <p><a href="tel:05000000000" class="text-decoration-none text-reset">0500 000 00 00</a></p>
      
           <div class="mt-3 mb-5">
             <a href="#" class="pe-3 link-dark"><i class="fab fa-facebook-square fa-2x"></i></a>
-
+            <a href="#" class="pe-3 link-dark"><i class="fab fa-twitter-square fa-2x"></i></a>
+            <a href="#" class="pe-3 link-dark"><i class="fab fa-linkedin fa-2x"></i></a>
           </div>
         </div>
 
         <div class="col-lg-6">
-          <form>
+          <form class="mt-4 text-center">
             <div class="input-group mb-3">
               <span class="input-group-text" id="form-name">
                 <i class="fas fa-user fa-1x"></i>
               </span>
               <input type="text" class="form-control" placeholder="Name" aria-label="name" aria-describedby="form-name">
-            </div> 
+            </div>
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="form-email">
+                <i class="fas fa-envelope fa-1x"></i>
+              </span>
+              <input type="email" class="form-control" placeholder="E-mail" aria-label="email" aria-describedby="form-email">
+            </div>
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="form-textarea">
+                <i class="fas fa-pen fa-1x"></i>
+              </span>
+              <textarea class="form-control" placeholder="Leave a commet here" aria-label="textarea" aria-describedby="form-textarea" rows="8"></textarea>
+            </div>
+            <button type="submit" class="btn btn-outline-primary w-50">Send</button>
             
           </form>
         </div>
@@ -143,14 +221,15 @@
  
   <!-- footer-->
   <footer class="bg-dark text-white">
-    <div class="container-fluid">
-      
+    <div class="container-fluid text-center">
+      <small class="d-block py-3">Copyright &copy; 2021 | Egecan Berk KAŞIKÇI</small>
     </div>
   </footer>
   
   <!-- Bootstrap Js -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="./js/main.js"></script>
 </body>
 </html>
 
